@@ -20,7 +20,7 @@ module.exports = {
 
     // First we prevent webpack from using Storybook CSS rules to process CSS modules
     newConfig.module.rules.find(
-      rule => rule.test.toString() === '/\\.css$/'
+      (rule) => rule.test.toString() === '/\\.css$/'
     ).exclude = /\.module\.css$/
 
     // Then we tell webpack what to do with CSS modules
@@ -34,6 +34,15 @@ module.exports = {
           options: {
             importLoaders: 1,
             modules: true
+          }
+        },
+        {
+          loader: 'postcss-loader',
+          options: {
+            sourceMap: true,
+            config: {
+              path: './.storybook/'
+            }
           }
         }
       ]
