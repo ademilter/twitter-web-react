@@ -1,9 +1,41 @@
 .navButton {
-  background-color: black;
-  color: white;
-  padding: 20px;
+  position: relative;
+  color: var(--c-text-color);
+  padding: 10px;
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    background-color: var(--c-theme-20);
+  }
 
   svg {
-    color: red;
+    font-size: 26px;
+
+    & + * {
+      margin-left: 20px;
+      margin-right: 15px;
+    }
   }
+}
+
+.navButtonSelected {
+  color: var(--c-theme);
+}
+
+.notify {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  height: 17px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 17px;
+  display: flex;
+  align-items: center;
+  background-color: var(--c-theme);
+  color: var(--c-text-color);
+  font-size: 11px;
+  border: 1px solid var(--c-primary);
 }
