@@ -6,4 +6,6 @@
   --c-border-color: #2f3336;
   --c-gray: #6e767d;
   --c-dark-gray: #202327;
+
+  --fade: 120ms;
 }
