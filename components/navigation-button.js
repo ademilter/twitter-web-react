@@ -5,6 +5,7 @@ import Button from './button'
 
 import styles from './navigation-button.module.css'
 
+// TODO: selected durumunda ikonlar dolgulu olacak
 function NavigationButton({ notify, selected, children, ...props }) {
   return (
     <Button
