@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
 
+  /* bütün alt elemanlara uygulanır. sadece ilk çocuklara uygulanmalı */
   * + * {
     margin-left: var(--gap);
   }
