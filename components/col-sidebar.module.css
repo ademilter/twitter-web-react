@@ -1,2 +1,24 @@
 .sidebar {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (--d) {
+    align-items: flex-start;
+  }
+}
+
+.tweet {
+  margin-top: 16px;
+  margin-bottom: 20px;
+
+  @media (--d) {
+    width: 100%;
+  }
+}
+
+.profile {
+  margin-top: auto;
 }
