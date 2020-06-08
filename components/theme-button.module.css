@@ -4,6 +4,7 @@
   padding-left: 15px;
   padding-right: 15px;
   height: 40px;
+  min-width: 40px;
   font-weight: bold;
 
   &:hover {
@@ -14,4 +15,5 @@
 
 .bigButton {
   height: 47px;
+  min-width: 47px;
 }
