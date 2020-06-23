@@ -1,0 +1,16 @@
+.container {
+  padding: 20px;
+}
+
+.label {
+  margin-right: 20px;
+  display: inline-flex;
+  align-items: center;
+
+  input[type='radio'] {
+    font-size: 18px;
+    width: 1em;
+    height: 1em;
+    margin-right: 6px;
+  }
+}
