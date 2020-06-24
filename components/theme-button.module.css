@@ -1,15 +1,16 @@
 .button {
   background-color: var(--c-theme);
-  color: white;
+  color: var(--c-theme-text-color);
   padding-left: 15px;
   padding-right: 15px;
   height: 40px;
   min-width: 40px;
   font-weight: bold;
+  transition: var(--fade) all;
 
   &:hover {
-    background-color: var(--c-theme);
-    color: var(--c-text-color);
+    background-color: var(--c-theme-dark);
+    color: var(--c-theme-text-color);
   }
 }
 

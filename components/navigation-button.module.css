@@ -35,7 +35,7 @@
   display: flex;
   align-items: center;
   background-color: var(--c-theme);
-  color: var(--c-text-color);
+  color: var(--c-theme-text-color);
   font-size: 11px;
   border: 1px solid var(--c-primary);
 }
