@@ -1,8 +1,10 @@
 :root {
   --c-primary: #fff;
   --c-theme: rgba(29, 161, 242, 1);
+  --c-theme-dark: rgba(26, 145, 218, 1);
   --c-theme-10: rgba(29, 161, 242, 0.1);
   --c-text-color: #000;
+  --c-theme-text-color: #fff;
   --c-border-color: rgb(230, 236, 240);
   --c-gray: #6e767d;
   --c-dark-gray: #202327;
