@@ -1,9 +1,9 @@
 import React from 'react'
 import cn from 'classnames'
 
-import Button from './button'
+import Button from '../button'
 
-import styles from './theme-button.module.css'
+import styles from './style.module.css'
 
 function ThemeButton({ className, children, big = false, ...props }) {
   return (

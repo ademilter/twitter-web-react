@@ -2,10 +2,10 @@ import React from 'react'
 import { withKnobs, boolean } from '@storybook/addon-knobs'
 
 import Button from '../components/button'
-import NavigationButton from '../components/navigation-button'
-import Navigation from '../components/navigation'
+import NavigationButton from '../components/navigation/button'
+import Navigation from '../components/navigation/navigation'
 import { Home } from '../components/icons'
-import TextTitle from '../components/text-title'
+import TextTitle from '../components/text/title'
 import ThemeButton from '../components/theme-button'
 import Stack from '../components/stack'
 
