@@ -19,7 +19,9 @@ export default function MyApp({ Component, pageProps }) {
   useEffect(() => {
     if (!theme) return
     const $html = document.querySelector('html')
-    $html.classList.remove(...$html.classList)
+    $html.classList.remove('light')
+    $html.classList.remove('dark')
+    $html.classList.remove('dim')
     $html.classList.add(theme.toString())
   }, [theme])
 
