@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "classnames": "^2.2.6",
+    "date-fns": "^2.15.0",
     "next": "^9.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
