@@ -1,7 +1,7 @@
 // import Twit from '../../lib/twit'
 
 export default (req, res) => {
-  res.status(200).json(data)
+  res.status(200).json({ message: 'Tweet gönderildi :p' })
 
   // demo sayfasında benim adıma tweet atamayın diye bu alanı yorumladım.
 
