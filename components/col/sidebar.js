@@ -12,6 +12,10 @@ import { Tweet } from '../icons'
 function Layout({ flat }) {
   const [isShowModal, isShowModalSet] = React.useState(false)
 
+  const onModalClose = () => {
+    isShowModalSet(false)
+  }
+
   return (
     <div className={cn(styles.sidebar)}>
       <Navigation flat={flat} />
@@ -23,7 +27,9 @@ function Layout({ flat }) {
       </div>
 
       {/* tweet-popup */}
-      {isShowModal && <TweetModal onClick={() => isShowModalSet(false)} />}
+      {isShowModal && (
+        <TweetModal onModalClose={onModalClose} onClick={onModalClose} />
+      )}
 
       <div className={styles.profile}>
         <ProfileBox flat={flat} />
