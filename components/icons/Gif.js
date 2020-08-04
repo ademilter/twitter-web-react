@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgGif(props) {
   return (
@@ -12,7 +12,7 @@ function SvgGif(props) {
         fill="currentColor"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgGif;
+export default SvgGif

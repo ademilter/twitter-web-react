@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgHome(props) {
   return (
@@ -12,7 +12,7 @@ function SvgHome(props) {
         fill="currentColor"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgHome;
+export default SvgHome

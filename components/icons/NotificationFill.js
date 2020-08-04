@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgNotificationFill(props) {
   return (
@@ -8,7 +8,7 @@ function SvgNotificationFill(props) {
         fill="currentColor"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgNotificationFill;
+export default SvgNotificationFill

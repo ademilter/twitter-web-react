@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgSearch(props) {
   return (
@@ -8,7 +8,7 @@ function SvgSearch(props) {
         fill="currentColor"
       />
     </svg>
-  );
+  )
 }
 
-export default SvgSearch;
+export default SvgSearch
