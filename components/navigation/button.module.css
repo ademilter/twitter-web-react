@@ -1,6 +1,30 @@
 .navButton {
   position: relative;
-  padding: 10px;
+  justify-content: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+  @media (--d) {
+    justify-content: flex-start;
+    width: 100%;
+    &:first-child {
+      width: auto;
+    }
+  }
+
+  .navButtonContent {
+    display: flex;
+    padding: 10px;
+    border-radius: 99px;
+    color: inherit;
+  }
+
+  &:hover {
+    background: transparent;
+    .navButtonContent {
+      background-color: var(--c-theme-10);
+    }
+  }
 
   svg {
     font-size: 26px;
@@ -35,7 +59,7 @@
   display: flex;
   align-items: center;
   background-color: var(--c-theme);
-  color: var(--c-text-color);
+  color: var(--c-theme-text-color);
   font-size: 11px;
   border: 1px solid var(--c-primary);
 }
