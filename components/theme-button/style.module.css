@@ -6,6 +6,7 @@
   height: 40px;
   min-width: 40px;
   font-weight: bold;
+  outline: none;
 
   &:hover {
     background-color: var(--c-theme);
