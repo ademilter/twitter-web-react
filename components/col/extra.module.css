@@ -1,2 +1,7 @@
 .extra {
+  margin-left: 20px;
+  margin-right: 10px;
+  @media (--d-s) {
+    margin-left: 30px;
+  }
 }
