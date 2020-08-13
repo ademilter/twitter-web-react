@@ -1,0 +1,8 @@
+.small {
+  color: var(--c-gray);
+  font-size: 13px;
+}
+
+.bold {
+  font-weight: bold;
+}
