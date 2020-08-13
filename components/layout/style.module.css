@@ -12,17 +12,17 @@
   }
 
   @media (--t) {
-    grid-template-columns: 88px 1fr 290px;
-    max-width: calc(88px + 600px + 290px);
+    grid-template-columns: 88px 1fr 320px;
+    max-width: calc(88px + 600px + 320px);
   }
 
   @media (--d-s) {
-    grid-template-columns: 88px 1fr 350px;
-    max-width: calc(88px + 600px + 350px);
+    grid-template-columns: 88px 1fr 390px;
+    max-width: calc(88px + 600px + 390px);
   }
 
   @media (--d) {
-    grid-template-columns: 275px 1fr 350px;
-    max-width: calc(275px + 600px + 350px);
+    grid-template-columns: 275px 1fr 390px;
+    max-width: calc(275px + 600px + 390px);
   }
 }
