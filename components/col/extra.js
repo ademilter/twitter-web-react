@@ -26,9 +26,9 @@ function Sidebar({ children }) {
         />
       </ExtraBox>
       <ExtraBox title="Who to follow">
-        <FollowItem name="Adem İlter" slug="ademilter" />
-        <FollowItem name="Adem İlter" slug="ademilter" />
-        <FollowItem name="Adem İlter" slug="ademilter" />
+        <FollowItem name="Halit Ak" slug="akhalit_" />
+          <FollowItem name="Halit Ak" slug="akhalit_" />
+          <FollowItem name="Halit Ak" slug="akhalit_" />
       </ExtraBox>
     </div>
   )
