@@ -49,7 +49,9 @@ function TweetModal({ onModalClose = () => {}, onClick = () => {} }) {
             <IconButton className={styles.close} onClick={onClick}>
               <Close />
             </IconButton>
-            <ThemeButton onClick={onSubmit}>Tweet</ThemeButton>
+            <ThemeButton onClick={onSubmit}>
+              <span>Tweet</span>
+            </ThemeButton>
           </Stack>
         </div>
       </div>

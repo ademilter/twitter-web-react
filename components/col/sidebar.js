@@ -22,7 +22,7 @@ function Layout({ flat }) {
 
       <div className={styles.tweet}>
         <ThemeButton big full={!flat} onClick={() => isShowModalSet(true)}>
-          {flat ? <Tweet /> : 'Tweet'}
+          {flat ? <Tweet /> : <span>Tweet</span>}
         </ThemeButton>
       </div>
 

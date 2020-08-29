@@ -1,0 +1,25 @@
+.button {
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  position: relative;
+  left: 8px;
+  bottom: 8px;
+  color: var(--c-gray);
+  svg {
+    font-size: 15px;
+  }
+}
+.dot {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.tag {
+  padding-bottom: 2px;
+  padding-top: 2px;
+  margin-bottom: 5px;
+}

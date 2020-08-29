@@ -1,0 +1,16 @@
+.mainHeader {
+  background-color: var(--c-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 54px;
+  border-bottom: 1px solid var(--c-border-color);
+  padding-left: 15px;
+  padding-right: 15px;
+  .icon {
+    margin-left: 20px;
+    color: var(--c-theme);
+    position: relative;
+    left: 10px;
+  }
+}

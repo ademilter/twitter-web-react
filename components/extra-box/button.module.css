@@ -1,0 +1,10 @@
+.button {
+  align-items: flex-start;
+  padding: 10px 15px;
+  border-radius: 0;
+  border-bottom: 1px solid var(--c-border-color);
+  &:hover {
+    color: var(--c-text-color);
+    background-color: var(--c-trends-hover);
+  }
+}

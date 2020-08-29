@@ -1,0 +1,47 @@
+.tweet {
+  padding: 5px 15px 10px;
+  border-bottom: 10px solid var(--c-border-color);
+  display: flex;
+  .photo {
+    margin-right: 10px;
+    padding-top: 5px;
+    flex-shrink: 0;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .body {
+      height: 54px;
+      padding-top: 15px;
+      padding-bottom: 10px;
+      .textarea {
+        resize: none;
+        outline: none;
+        color: var(--c-text-color);
+        background-color: transparent;
+        font-size: 1.3rem;
+        display: block;
+        width: 100%;
+      }
+    }
+    .footer {
+      display: flex;
+      margin-top: 10px;
+      .footerButton {
+        color: var(--c-theme);
+        svg {
+          font-size: 22px;
+        }
+      }
+      > div {
+        display: flex;
+        position: relative;
+        right: 8px;
+      }
+      .tweetButton {
+        margin-left: auto;
+      }
+    }
+  }
+}

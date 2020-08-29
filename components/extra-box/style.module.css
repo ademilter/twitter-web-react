@@ -1,0 +1,37 @@
+.extraBox {
+  background-color: var(--c-trends-bg);
+  border-radius: 15px;
+  margin-bottom: 15px;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    height: 45px;
+    border-bottom: 1px solid var(--c-border-color);
+    .icon {
+      color: var(--c-theme);
+      position: relative;
+      left: 8px;
+      svg {
+        font-size: 22px;
+      }
+    }
+  }
+}
+.body {
+}
+.footer {
+  height: 49px;
+  .button {
+    height: 100%;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 0;
+    justify-content: flex-start;
+    color: var(--c-theme);
+    &:hover {
+      background-color: var(--c-trends-hover);
+    }
+  }
+}

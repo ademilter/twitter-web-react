@@ -1,19 +1,26 @@
 .button {
   background-color: var(--c-theme);
-  color: white;
-  padding-left: 15px;
-  padding-right: 15px;
+  color: var(--c-theme-text-color);
   height: 40px;
   min-width: 40px;
   font-weight: bold;
+  transition: var(--fade);
 
   &:hover {
-    background-color: var(--c-theme);
-    color: var(--c-text-color);
+    color: var(--c-theme-text-color);
+    background-color: var(--c-theme-hover);
+  }
+
+  span {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  svg {
+    font-size: 22px;
   }
 }
 
 .bigButton {
-  height: 47px;
-  min-width: 47px;
+  height: 49px;
+  min-width: 49px;
 }

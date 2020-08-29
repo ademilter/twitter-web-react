@@ -16,8 +16,10 @@ function NavigationButton({ notify, selected, children, className, ...props }) {
       )}
       {...props}
     >
-      {notify > 0 && <span className={styles.notify}>{notify}</span>}
-      {children}
+      <div className={styles.navButtonContent}>
+        {notify > 0 && <span className={styles.notify}>{notify}</span>}
+        {children}
+      </div>
     </Button>
   )
 }
