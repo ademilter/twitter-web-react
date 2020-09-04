@@ -7,3 +7,19 @@
   width: 100%;
   border-radius: 99px;
 }
+
+.header {
+  border-radius: 0 !important;
+  width: 100% !important;
+  position: relative;
+  height: 100% !important;
+}
+
+.profile {
+  width: 20% !important;
+  height: 60% !important;
+  position: absolute;
+  border: 4px solid var(--c-primary);
+  bottom: -30%;
+  left: 2%;
+}

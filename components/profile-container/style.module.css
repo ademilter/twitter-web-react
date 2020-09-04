@@ -1,0 +1,48 @@
+.photo {
+  position: relative;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+
+  button {
+    font-weight: bold;
+    font-size: 13px;
+    color: var(--c-theme);
+    padding: 7px 15px;
+    border: 1.3px solid var(--c-theme);
+  }
+}
+
+.infoContainer {
+  padding-left: 15px;
+}
+
+.buttonContainer {
+  margin-top: 10px;
+  display: flex;
+  width: 102.7%;
+  margin-left: -15px;
+  flex-shrink: 1;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  border-bottom: 1px solid var(--c-border-color);
+  a {
+    padding: 10px 16px;
+    color: var(--c-profile-text);
+    font-weight: bold;
+    &:first-child {
+      color: var(--c-theme);
+      border-bottom: 2px solid var(--c-theme);
+    }
+    &:last-child {
+      padding: 10px 24px;
+    }
+    & > span {
+      font-size: 15px;
+      padding: 6px 23px;
+    }
+  }
+}
