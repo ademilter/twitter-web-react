@@ -26,3 +26,18 @@
     font-size: 24px;
   }
 }
+
+.extraButton {
+  border-radius: 0;
+  &:hover {
+    background-color: var(--c-extra-button);
+  }
+}
+
+.forward {
+  transform: rotate(-90deg);
+  &:hover {
+    color: inherit;
+    background-color: inherit;
+  }
+}

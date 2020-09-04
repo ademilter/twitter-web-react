@@ -1,0 +1,38 @@
+.extraContainer {
+  background-color: var(--c-extra-container);
+  margin-top: 1rem;
+  border-radius: 10px;
+
+  .header {
+    padding: 8px 10px;
+    display: flex;
+    border-bottom: 2px solid var(--c-border-color);
+    justify-content: space-between;
+    align-items: center;
+
+    & svg {
+      font-size: 20px;
+      color: var(--c-theme);
+    }
+  }
+
+  .button {
+    padding: 12px;
+    font-size: 14px;
+    justify-content: flex-start;
+    color: var(--c-theme);
+  }
+  .footer {
+    a {
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+}
+
+.explore {
+  border-radius: 0;
+  background-color: inherit;
+  margin-top: 0;
+  border-bottom: 10px solid vaR(--c-border-color);
+}

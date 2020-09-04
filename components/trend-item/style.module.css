@@ -1,0 +1,33 @@
+.button {
+  padding: 10px;
+  border-bottom: 1px solid var(--c-border-color);
+  align-items: flex-start;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  span {
+    padding: 4px 2px;
+    &:nth-child(2) {
+      color: var(--c-text-color);
+    }
+  }
+}
+
+.icon {
+  padding: 0 4px;
+
+  &:hover {
+    margin-top: -4px;
+    padding: 4px;
+    svg {
+      color: var(--c-theme);
+    }
+  }
+  svg {
+    font-size: 16px;
+    color: var(--c-gray);
+  }
+}
