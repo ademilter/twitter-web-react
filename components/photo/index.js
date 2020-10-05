@@ -1,16 +1,19 @@
 import React from 'react'
 import cn from 'classnames'
+import useSWR from 'swr'
 
 import styles from './style.module.css'
+import fetcher from '../../lib/fetch'
 
 function Photo({
-  src = 'https://pbs.twimg.com/profile_images/1311401350178242560/I4BvsiMM_normal.jpg',
+  src,
   alt,
   size = 47,
   header = false,
   profile = false,
   secondSrc
 }) {
+  const { data } = useSWR('/api/tweet', fetcher)
   return (
     <div
       className={cn([styles.photo], header && styles.header)}
@@ -18,7 +21,7 @@ function Photo({
     >
       <img
         className={cn(styles.img, header && styles.header)}
-        src={src}
+        src={data?.statuses[0].user.profile_image_url_https}
         alt={alt}
       />
       {profile && (
