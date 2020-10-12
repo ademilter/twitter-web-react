@@ -1,0 +1,31 @@
+.button {
+  padding: 5px 10px;
+  border-bottom: 1px solid var(--c-border-color);
+  align-items: flex-start;
+
+  .notificationContainer {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6px 20px;
+    button:hover {
+      color: inherit;
+      background-color: inherit;
+    }
+
+    svg {
+      fill: rgb(224, 36, 94);
+    }
+  }
+  .personContainer {
+    span {
+      margin-right: 5px;
+    }
+    small {
+      display: inherit;
+      margin-top: 10px;
+      font-size: 15px;
+    }
+  }
+}

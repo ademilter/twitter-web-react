@@ -1,4 +1,5 @@
 .body {
+  color: var(--c-text-color);
 }
 
 .bold {

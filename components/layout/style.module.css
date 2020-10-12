@@ -8,9 +8,20 @@
 
   @media (--t) {
     max-width: 1060px;
-    grid-template-columns: auto 1fr 380px;
+    grid-template-columns: auto 1fr 400px;
   }
   @media (--d) {
     max-width: 1270px;
+  }
+}
+
+.messages {
+  @media (--t) {
+    max-width: 1060px;
+    grid-template-columns: auto 300px 1fr;
+  }
+  @media (--d) {
+    max-width: 1270px;
+    grid-template-columns: auto 350px 1fr;
   }
 }

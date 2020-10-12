@@ -12,3 +12,4 @@ function SvgBookmark(props) {
 }
 
 export default SvgBookmark
+

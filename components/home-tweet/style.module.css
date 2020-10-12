@@ -1,0 +1,70 @@
+.modal {
+  display: grid;
+  grid-template-areas: 'avatar body';
+  grid-template-columns: 50px 1fr;
+  grid-gap: 15px;
+  padding: 0 15px 30px;
+  background-color: var(--c-primary);
+  border-bottom: 8px solid var(--c-border-color);
+}
+
+.header {
+  position: absolute;
+  top: 10px;
+  display: inline;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.19);
+  :global(html.light) & {
+    border-color: rgba(0, 0, 0, 0.19);
+  }
+
+  button {
+    margin-left: 20px;
+
+    svg {
+      font-size: 20px;
+    }
+  }
+}
+
+.avatar {
+  margin-top: 30px;
+  grid-area: avatar;
+}
+
+.body {
+  margin-top: 30px;
+  grid-area: body;
+}
+
+.textarea {
+  resize: none;
+  outline: 0;
+  color: var(--c-text-color);
+  background-color: transparent;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -20px;
+}
+
+.buttonContainer {
+  display: flex;
+
+  svg {
+    font-size: 20px;
+    color: var(--c-theme);
+  }
+}
+
+.submitButton {
+  padding: 18px;
+  height: 35px;
+}
+
+.close {
+  color: var(--c-theme);
+}

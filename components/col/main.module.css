@@ -3,3 +3,10 @@
   border-style: solid;
   border-color: var(--c-border-color);
 }
+
+.loading {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

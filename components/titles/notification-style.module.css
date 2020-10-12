@@ -1,0 +1,25 @@
+.notification {
+  & > div:first-child {
+    border-bottom: none;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  border-bottom: 2px solid var(--c-border-color);
+  a {
+    width: 50%;
+    height: 100%;
+    color: var(--c-profile-text);
+    font-weight: bold;
+    &:first-child {
+      border-bottom: 2px solid var(--c-theme);
+      color: var(--c-theme);
+    }
+    &:hover {
+      background-color: var(--c-theme-10);
+    }
+  }
+}

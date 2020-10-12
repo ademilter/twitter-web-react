@@ -1,0 +1,26 @@
+.button {
+  justify-content: space-between;
+  padding: 7px 20px;
+  border-bottom: 1px solid var(--c-border-color);
+  button {
+    font-weight: bold;
+    color: var(--c-theme);
+    padding: 4px 14px;
+    border: 1.3px solid var(--c-theme);
+  }
+}
+.person {
+  display: flex;
+  align-items: center;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7px;
+}
+.name {
+  font-weight: bold;
+  &:hover {
+    text-decoration: underline;
+  }
+}
