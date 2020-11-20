@@ -18,6 +18,12 @@
       color: white;
     }
   }
+
+  &:global(.notifications) {
+    .notify {
+      color: white;
+    }
+  }
 }
 
 .navButtonSelected {
