@@ -15,7 +15,7 @@ function ProfileBox({ flat = false, name = 'Adem ilter', slug = 'ademilter' }) {
       {!flat && (
         <>
           <div className={styles.body}>
-            <TextBody bold>{name}</TextBody>
+            <TextBody bold>{name.length > 12 ? name.substring(0, 12) + "..." : name}</TextBody>
             <TextBody className={styles.slug}>@{slug}</TextBody>
           </div>
           <ArrowBottom className={styles.icon} />
