@@ -57,3 +57,20 @@
     font-size: 19px;
   }
 }
+
+
+.hoverRetweet{
+
+&:hover {
+   color: rgb(23,191,99);
+   background-color: var(--c-theme-10);
+ }
+}
+
+.hoverLike{
+
+&:hover {
+   color: rgb(224,36,94);
+   background-color: var(--c-theme-10);
+ }
+}
