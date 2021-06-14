@@ -53,7 +53,7 @@ function Tweet({
 
           {/* retweet */}
           <div className={styles.footerButton}>
-            <IconButton className={styles.actionButton}>
+            <IconButton className={`${styles.actionButton} ${styles.hoverRetweet}`}>
               <Icon.Retweet />
             </IconButton>
             {retweet_count && <span>{retweet_count}</span>}
@@ -61,7 +61,7 @@ function Tweet({
 
           {/* like */}
           <div className={styles.footerButton}>
-            <IconButton className={styles.actionButton}>
+            <IconButton className={`${styles.actionButton} ${styles.hoverLike}`}>
               <Icon.Like />
             </IconButton>
             {favorite_count && <span>{favorite_count}</span>}
