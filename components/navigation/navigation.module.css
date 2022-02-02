@@ -1,11 +1,10 @@
 .nav {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-}
+  align-items: center;
+  width: 100%;
 
-.navButton {
-  & + & {
-    margin-top: 8px;
+  @media (--d) {
+    align-items: flex-start;
   }
 }

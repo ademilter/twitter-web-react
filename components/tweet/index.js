@@ -53,7 +53,13 @@ function Tweet({
 
           {/* retweet */}
           <div className={styles.footerButton}>
-            <IconButton className={styles.actionButton}>
+            <IconButton
+              className={styles.actionButton}
+              style={{
+                '--c-theme': 'rgb(23, 191, 99)',
+                '--c-theme-10': 'rgba(23, 191, 99,.1)'
+              }}
+            >
               <Icon.Retweet />
             </IconButton>
             {retweet_count && <span>{retweet_count}</span>}
@@ -61,7 +67,13 @@ function Tweet({
 
           {/* like */}
           <div className={styles.footerButton}>
-            <IconButton className={styles.actionButton}>
+            <IconButton
+              className={styles.actionButton}
+              style={{
+                '--c-theme': 'rgb(224, 36, 94)',
+                '--c-theme-10': 'rgba(224, 36, 94,.1)'
+              }}
+            >
               <Icon.Like />
             </IconButton>
             {favorite_count && <span>{favorite_count}</span>}

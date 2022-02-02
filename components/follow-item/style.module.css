@@ -1,0 +1,25 @@
+.button {
+  justify-content: flex-start;
+  align-items: center;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.name:hover {
+  text-decoration: underline;
+}
+.slug {
+  color: var(--c-gray);
+}
+.followButton {
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 30px;
+  color: var(--c-theme);
+  border: 1px solid var(--c-theme);
+  font-weight: bold;
+}

@@ -8,7 +8,7 @@ import { ArrowBottom } from '../icons'
 import Button from '../button'
 import TextBody from '../text/body'
 
-function ProfileBox({ flat = false, name = 'Adem ilter', slug = 'ademilter' }) {
+function ProfileBox({ flat = false, name = 'Halit Ak', slug = 'akhalit_' }) {
   return (
     <Button className={cn([styles.box])}>
       <Photo size={39} />
