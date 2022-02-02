@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 12px;
+  align-items: center;
+  border-bottom: 1px solid var(--c-border-color);
+  svg {
+    color: var(--c-theme);
+  }
+}
+
+.subHeader {
+  padding: 5px 12px;
+  svg {
+    color: var(--c-gray);
+    font-size: 18px;
+  }
+}
+
+.slug {
+  & > div:first-child {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.back {
+  & > div:first-child {
+    flex: 2;
+  }
+}

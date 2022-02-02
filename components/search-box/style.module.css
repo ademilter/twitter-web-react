@@ -1,0 +1,54 @@
+.searchBox {
+  display: flex;
+  background-color: var(--c-dark-gray);
+  border-radius: 99px;
+  border: 1px solid transparent;
+  width: 100%;
+  margin: 2px 0;
+  font-size: 14px;
+  padding: 2px 0;
+
+  button {
+    padding: 8px 0 8px 16px;
+    &:hover {
+      background-color: transparent;
+    }
+    svg {
+      color: var(--c-profile-text);
+      font-size: 18px;
+    }
+  }
+  input {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    padding: 0 10px;
+    &:focus {
+      color: var(--c-text-color);
+    }
+  }
+  &:focus-within {
+    outline: none;
+    border: 1px solid var(--c-theme);
+    background-color: var(--c-primary);
+    button svg {
+      color: var(--c-theme);
+    }
+  }
+  ::placeholder {
+    color: var(--c-profile-text);
+  }
+}
+.container {
+  height: 27px;
+  width: 53%;
+  margin: 10px 2rem;
+}
+
+.messages {
+  button {
+    svg {
+      font-size: 14px;
+    }
+  }
+}

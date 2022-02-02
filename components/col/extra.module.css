@@ -1,2 +1,23 @@
 .extra {
+  padding: 10px 30px;
+}
+
+.messages {
+  border-right: 1px solid var(--c-border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.messagesContainer {
+  & > div:first-child {
+    align-items: center !important;
+  }
+  span {
+    color: var(--c-gray);
+    margin-top: 7px;
+  }
+  button {
+    padding: 0 20px;
+  }
 }
